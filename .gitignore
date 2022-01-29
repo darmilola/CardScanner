@@ -1,0 +1,14 @@
+package com.me.moviesapp.data
+
+import com.me.moviesapp.domain.ApiService
+import retrofit2.Retrofit
+import javax.inject.Inject
+
+
+class ApiHelper {
+
+    @set:Inject
+    lateinit var retrofit: Retrofit
+    var apiServ
+# Project exclude paths
+/.gradle/
